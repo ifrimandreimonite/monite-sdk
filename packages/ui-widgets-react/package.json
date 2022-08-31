@@ -59,12 +59,13 @@
     "react-router-dom": "^6.3.0"
   },
   "dependencies": {
-    "@monite/sdk-api": "^0.0.3",
-    "@monite/ui-kit-react": "^0.0.3",
+    "@monite/sdk-api": "^0.1.1",
+    "@monite/ui-kit-react": "^0.1.1",
     "@stripe/react-stripe-js": "~1.9.0",
     "@stripe/stripe-js": "~1.32.0",
     "react-hook-form": "~7.33.0",
     "react-hot-toast": "~2.2.0",
     "react-query": "~3.39.2"
-  }
+  },
+  "gitHead": "718b4c473f4c5c372a126e09b45961ec62442711"
 }
