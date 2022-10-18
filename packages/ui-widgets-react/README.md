@@ -26,8 +26,8 @@ Before using Monite UI Widgets, complete the [Getting started](https://docs.moni
 
 We also assume you have already mapped out your customers and their users as [entities](https://docs.monite.com/docs/entities) and [entity users](https://docs.monite.com/docs/entity-users) in Monite, and that you have the ability to:
 
-a) look up the Monite entity user ID for the user who is logged in to your application;
-b) look up the Monite entity ID to which the user belongs.
+* look up the Monite entity user ID for the user who is logged in to your application;
+* look up the Monite entity ID to which the user belongs.
 
 When an entity user logs in to your application, look up the entity ID and user ID for that user, and call Monite's [`POST /auth/token`](https://docs.monite.com/reference/obtain_new_token_v1_auth_token_post) endpoint to [generate a Monite access token](https://docs.monite.com/docs/get-started#optional-get-an-access-token-for-an-entity-user) for that user.
 
